@@ -1,0 +1,53 @@
+body{
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+}
+
+h3{
+  color: #ffcb05;
+  font-size: 2em;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+}
+
+ul > li{
+  display: inline;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #fff;
+  font-size: 20px;
+}
+
+ul{
+  text-decoration: none;
+  list-style: none;
+}
+
+.navbar{
+  margin-top: 40px;
+  margin-left: 50px;
+  position: fixed;
+  z-index: 5000;
+}
+
+a{
+  color: #fff;
+}
+
+a:hover{
+ text-decoration: none;
+ font-style: italic;
+ color: #fff;
+}
+
+button{
+  background-color: transparent;
+  size: 100px 50px;
+  text-decoration: none;
+  border: none;
+  font-family: "Verdana", "Open Sans", "Helvetica", sans-serif; 
+}
